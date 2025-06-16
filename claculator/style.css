@@ -1,0 +1,58 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+body{
+    background-color: rgb(246, 243, 237);
+    background-image: url('bg4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(33, 1, 1);
+    font-size: 45px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration-style: double;
+    
+}
+.dis{
+    display: flex;
+    margin: 25px 0px;
+    justify-content: flex-end;
+}
+.dis input{
+    flex: 1;
+    text-align: right;
+    outline: none;
+    font-size: 45px;
+}
+.cont{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.claci{
+    padding: 25px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: rgb(26, 1, 50);
+}
+.claci input{
+    border-radius: 15px;
+    height: 60px;
+    width: 65px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+    background: transparent;
+
+}
+        
